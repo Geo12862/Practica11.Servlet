@@ -12,7 +12,12 @@ Simulaciones de hipotecas con, Java, Servlet, Html, CSS y JS de apoyo con servid
   - register.html
   - main.js
 
+## Imagenes
+### Prueba Calculadora:
+![Imagen de calculadora](https://github.com/Geo12862/Practica11.Servlet/blob/main/imagenesServlet/Calculo.jpeg)
 
+### Prueba Reultado:
+![Imagen de resultado](https://github.com/Geo12862/Practica11.Servlet/blob/main/imagenesServlet/Resultado.jpeg)
 
 
 ## TODO:
@@ -26,4 +31,5 @@ Simulaciones de hipotecas con, Java, Servlet, Html, CSS y JS de apoyo con servid
 - [ ] Poner Registro en index.html
 - [x] DB Calculo Hipoteca
 - [x] DB Usuarios
-- [ ] 
+- [ ] Debe eliminarse del servidor tomado las aplicaciones desplegadas pordefecto.
+- [ ] Tienes que desplegar la aplicación creada en la raíz de las URL del servidor tomcat.
