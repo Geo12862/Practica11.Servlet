@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<meta charset="UTF-8">
+	<title>Practica 11. Servrlets</title>
+	<style>
+		label{
+			display: inline-block;
+			width: 120px;
+		}
+		input{
+			margin-bottom: 10px;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Calculadora Hipotecaria</h1>
+	<form method="post" action="CalculadoraHipotecaria">
+		<label for="capital">Importe de la hipoteca:</label>
+		<input type="text" id="capital" name="capital" step="0.01" required placeholder=" €"><br>
+		<label for="interes">Tipo de interés, en %:</label>
+		<input type="text" id="interes" name="interes" step="0.01" required placeholder=" %"><br>
+		<label for="plazo">Plazo amortización, en años:</label>
+		<input type="text" id="plazo" name="plazo" required placeholder=" años"><br>
+		<input type="submit" value="Calcular"> <input type="reset">
+	</form>
+</body>
+</html>
